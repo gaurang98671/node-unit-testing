@@ -1,0 +1,22 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "Testing stuff with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurang98671/node-unit-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaurang98671/node-unit-testing/issues"
+  },
+  "homepage": "https://github.com/gaurang98671/node-unit-testing#readme",
+  "devDependencies": {
+    "jest": "^27.0.1"
+  }
+}
