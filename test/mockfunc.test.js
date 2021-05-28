@@ -21,3 +21,7 @@ test("Testing mock callback", ()=>{
     expect(mockCallback.mock.calls[0][0]).toBe(2)
     expect(mockCallback.mock.results[0].value).toBe(3)
 })
+
+//mock implememtations
+const mockFunc = jest.fn(()=>"dafault").mockImplementationOnce(()=>"First").mockImplementationOnce(()=>"Second")
+console.log(mockFunc(),mockFunc(),mockFunc())
